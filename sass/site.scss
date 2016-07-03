@@ -1,7 +1,14 @@
 $purp: #a73b89;
-$primary-color: $purp;
 
 @font-face {
   font-family: 'blackout';
-  src: url('./font/Blackout_Midnight');
+  src: url('../fonts/Blackout_Midnight');
+}
+
+body {
+  background-color: black;
+}
+
+.brand-logo {
+  font-family: 'blackout'
 }
