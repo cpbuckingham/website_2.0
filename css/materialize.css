@@ -3316,12 +3316,12 @@ small {
   padding: 20px;
   margin: 0.5rem 0 1rem 0;
   border-radius: 2px;
-  background-color: #fff; }
+  background-color: #a73b89; }
 
 .card {
   position: relative;
   margin: 0.5rem 0 1rem 0;
-  background-color: #fff;
+  background-color: #a73b89;
   transition: box-shadow .25s;
   border-radius: 2px; }
   .card .card-title {
@@ -3360,7 +3360,7 @@ small {
       bottom: 0;
       width: 100%; }
     .card .card-image .card-title {
-      color: #fff;
+      color: #a73b89;
       position: absolute;
       bottom: 0;
       left: 0;
@@ -3380,19 +3380,19 @@ small {
     padding: 20px;
     z-index: 2; }
     .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
-      color: #ffab40;
+      color: white;
       margin-right: 20px;
       transition: color .3s ease;
       text-transform: uppercase; }
       .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
-        color: #ffd8a6; }
+        color: white; }
     .card .card-action + .card-reveal {
       z-index: 1;
       padding-bottom: 64px; }
   .card .card-reveal {
     padding: 20px;
     position: absolute;
-    background-color: #fff;
+    background-color: #a73b89;
     width: 100%;
     overflow-y: auto;
     top: 100%;

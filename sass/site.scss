@@ -6,9 +6,87 @@ $purp: #a73b89;
 }
 
 body {
+  background:
+    linear-gradient(
+      rgba(0,0,0,.9),
+      rgba(0,0,0,.9)
+    ),
+    url(../img/glitch/fav_glitch.png);
   background-color: black;
 }
 
 .brand-logo {
   font-family: 'blackout'
 }
+
+.card-link {
+  color: white;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.flavor {
+  color: white;
+  h4 {
+    text-align: justify;;
+    font-style: italic;
+  }
+  h5 {
+    text-indent: 5rem;
+  }
+}
+
+main {
+  i {
+    color: white;
+  }
+  .cc {
+    .contact {
+      width: 150px;
+      height: 150px;
+      background-color: $purp;
+      color: white;
+      padding: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      p {
+        margin: 0;
+      }
+      // display: inline-block;
+      // margin-left: 1rem;
+    }
+  }
+}
+
+.full-height {
+  z-index: -2;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  top: 0;
+  padding: 50px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+// @media #{$small-and-down} {
+//   .flex-center {
+//     display: flex;
+//     justify-content: space-around;
+//     align-items: center;
+//     flex-wrap: wrap;
+//     flex-direction: column;
+//   }
+// }
