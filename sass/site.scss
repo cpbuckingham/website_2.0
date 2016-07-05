@@ -81,12 +81,12 @@ main {
   flex-direction: row;
 }
 
-// @media #{$small-and-down} {
-//   .flex-center {
-//     display: flex;
-//     justify-content: space-around;
-//     align-items: center;
-//     flex-wrap: wrap;
-//     flex-direction: column;
-//   }
-// }
+@media (max-width: 768px) {
+  .flex-center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
