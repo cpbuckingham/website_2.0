@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'blackout';
-  src: url("../fonts/Blackout_Midnight"); }
+  src: url("../fonts/Blackout_Midnight.ttf"); }
 body {
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/glitch/fav_glitch.png);
   background-color: black; }
@@ -15,28 +15,30 @@ body {
 
 .flavor {
   color: white; }
-  .flavor h4 {
+  .flavor .quote {
     text-align: justify;
     font-style: italic; }
-  .flavor h5 {
-    text-indent: 5rem; }
+  .flavor p:nth-of-type(2) {
+    text-indent: 1rem; }
 
-main i {
-  color: white; }
-main .cc .contact {
-  width: 150px;
-  height: 150px;
-  background-color: #a73b89;
-  color: white;
-  padding: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%; }
-  main .cc .contact p {
-    margin: 0; }
+main {
+  margin-top: 20px; }
+  main i {
+    color: white; }
+  main .cc .contact {
+    width: 150px;
+    height: 150px;
+    background-color: #a73b89;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; }
+    main .cc .contact p {
+      margin: 0; }
 
 .full-height {
   z-index: -2;
@@ -53,6 +55,14 @@ main .cc .contact {
   align-items: center;
   flex-wrap: wrap;
   flex-direction: row; }
+
+.time {
+  font-style: italic;
+  margin: 0; }
+
+.block {
+  background-color: #a73b89;
+  border-radius: 5px; }
 
 @media (max-width: 768px) {
   .flex-center {

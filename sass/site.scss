@@ -2,7 +2,7 @@ $purp: #a73b89;
 
 @font-face {
   font-family: 'blackout';
-  src: url('../fonts/Blackout_Midnight');
+  src: url('../fonts/Blackout_Midnight.ttf');
 }
 
 body {
@@ -28,16 +28,17 @@ body {
 
 .flavor {
   color: white;
-  h4 {
+  .quote {
     text-align: justify;;
     font-style: italic;
   }
-  h5 {
-    text-indent: 5rem;
+  p:nth-of-type(2){
+    text-indent: 1rem;
   }
 }
 
 main {
+  margin-top: 20px;
   i {
     color: white;
   }
@@ -79,6 +80,16 @@ main {
   align-items: center;
   flex-wrap: wrap;
   flex-direction: row;
+}
+
+.time {
+  font-style: italic;
+  margin: 0;
+}
+
+.block {
+  background-color: $purp;
+  border-radius: 5px;
 }
 
 @media (max-width: 768px) {
