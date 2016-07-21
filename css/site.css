@@ -4,6 +4,8 @@
 body {
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/glitch/fav_glitch.png);
   background-color: black; }
+  body h5 {
+    color: #a73b89; }
 
 .brand-logo {
   font-family: "blackout"; }
@@ -12,6 +14,9 @@ body {
   color: white; }
   .card-link:hover {
     text-decoration: underline; }
+
+.card-content a {
+  color: white; }
 
 .flavor {
   color: white; }
@@ -63,6 +68,15 @@ main {
 .block {
   background-color: #a73b89;
   border-radius: 5px; }
+
+.about h5 {
+  color: #a73b89; }
+.about hr {
+  border-color: #a73b89; }
+.about p {
+  margin-bottom: 30px; }
+  .about p a:hover {
+    text-decoration: underline; }
 
 @media (max-width: 768px) {
   .flex-center {

@@ -1,4 +1,6 @@
 $purp: #a73b89;
+$gr33n: #1CB200;
+
 
 @font-face {
   font-family: 'blackout';
@@ -13,6 +15,9 @@ body {
     ),
     url(../img/glitch/fav_glitch.png);
   background-color: black;
+  h5 {
+    color: $purp;
+  }
 }
 
 .brand-logo {
@@ -23,6 +28,12 @@ body {
   color: white;
   &:hover {
     text-decoration: underline;
+  }
+}
+
+.card-content {
+  a {
+    color: white;
   }
 }
 
@@ -90,6 +101,21 @@ main {
 .block {
   background-color: $purp;
   border-radius: 5px;
+}
+
+.about {
+  h5 {
+    color: $purp;
+  }
+  hr {
+    border-color: $purp;
+  }
+  p {
+    margin-bottom: 30px;
+    a:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 @media (max-width: 768px) {
